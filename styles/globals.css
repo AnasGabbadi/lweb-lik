@@ -1,5 +1,228 @@
-@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap");
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+
+    body {
+        background-color: #243642;
+    }
+
+    .btn {
+        @apply bg-[#387478] hover:bg-[#243642] inline-block my-2 px-4 py-2 uppercase rounded-[1.125rem] cursor-pointer font-bold text-[#E2F1E7];
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-size: x-large;
+        font-weight: bolder;
+        font-family: sans-serif;
+    }
+
+    /* Page de chargement */
+    /* Masquer tout le contenu du body pendant le chargement */
+    body.loading {
+        visibility: hidden; /* Cacher tout le contenu du body */
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #243642; /* Couleur d'arrière-plan */
+    }
+    
+    /* L'écran de chargement */
+    .loading-page {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to right, #243642, #387478, #629584);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        z-index: 1000;
+        visibility: visible;
+        opacity: 1;
+        transition: opacity 1s ease-out;
+    }
+    
+    /* Style du logo */
+    .logo-name {
+        font-size: 20px;
+        font-weight: bolder;
+        letter-spacing: 12px;
+        text-transform: uppercase;
+        opacity: 0;
+        transition: opacity 1s ease;
+    }
+    /* And Page de chargement */
+     
+    /* Home page */
+    /* #home-blocks2 {
+        border-radius: 30px !important;
+    } */
+
+    @keyframes moveXtoY {
+        0% {
+            transform: translateX(0px);
+        }
+        50% {
+            transform: translateY(20px);
+        }
+        100% {
+            transform: translateX(0px);
+        }
+    }
+    #home-cover1-img {
+        animation: moveXtoY 3s ease-in-out infinite;
+    }
+
+    @keyframes animate {
+        to {
+            background-position: 200%;
+        }
+    }
+    #home-cover1-h1 h2 {
+        background-image: url(../public/Design\ sans\ titre\ \(3\).png);
+        background-size: 200% auto;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        animation: animate 10s linear infinite;
+    }
+
+    #precesse-col1 h1 {
+        writing-mode: sideways-lr;
+        float: inline-start;
+    }    
+    #precesse-col1 {
+        align-content: space-evenly;    
+    }
+    
+    /* Mode mobile : Écran de moins de 768px */
+    @media (max-width: 768px) {
+        #precesse-col1 h1 {
+            writing-mode: initial;
+            float: none;
+            text-align: center;
+        }
+    }
+    
+    #html-col-2 {
+
+        overflow-x: clip;
+    }
+
+    /*Nos services Style*/
+    #block-services #services-col-1 {
+        background-color: #e2f1e7e0;
+        box-shadow: 0px 8px 20px 0px;
+        color: #e2f1e74f;
+        margin-left: 15px;
+        border-radius: 40px;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    
+    #block-services #services-col-1:hover {
+        background-color: #243642;
+        color: #e2f1e7e0;
+    }
+    
+    #block-services #services-col-1 * {
+        transition: color 0.3s ease;
+    }
+    
+    #block-services #services-col-1:hover,
+    #block-services #services-col-1:hover * {
+        color: #e2f1e7e0;
+    }
+
+    /*footer*/
+
+    #block-border-top {
+        border-bottom: var(--divider-border-width) var(--divider-border-style) var(--divider-color);
+        --divider-border-style: solid;
+        --divider-color: #243642;
+        --divider-border-width: 1px;
+        margin-bottom: -50px;
+    }
+
+    #block-border-top p {
+        color: #E2F1E7;
+    }
+
+    #block-footer {
+        margin-bottom: -140px;
+    }
+
+    #block-footer-titre {
+        margin-bottom: -145px;
+    }
+
+    #group-footer {
+        margin-bottom: auto;
+        margin-top: -515px;
+    }
+
+    #agence-footer2 {
+        height: 570px;
+        margin-bottom: 0px;
+    }
+
+    @media screen and (max-width: 768px) {
+        #agence-footer2 {
+            height: 1000px;
+            contain: none;
+        }
+    }
+
+    /* Agence Page*/
+
+    #agence-cols1 {
+        margin-bottom: -200px;
+        margin-top: 60px;
+    }
+
+    #agenece-projet-client {
+        margin-top: -120px;
+    }
+
+    #agence-img1 {
+        text-align: -webkit-right;
+    }
+
+    #agence-promece-cols-left {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        place-self: flex-end;
+    }
+
+    #agence-promece-cols-right {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        place-self: flex-start;
+    }
+
+    #agence-promece-col-left,
+    #agence-promece-cols-right {
+        background: #38747845;
+        padding: 20px;
+        border-radius: 10px;
+        color: white;
+        max-width: 500px;
+    }
+
+}
+@layer base {
+
+}
+@layer utilities {
+    .my-10 {
+        margin-top: -0.5rem;
+        margin-bottom: 5rem;
+    }
+}

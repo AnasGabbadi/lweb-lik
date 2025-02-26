@@ -1,0 +1,315 @@
+    // const { slug } = await params;
+    // const slugPath = slug?.join("/") || "";
+    // const data = await getPage(slugPath);
+ 
+request
+ 
+  experimental: {
+    serverActions: true,
+  },
+ 
+next build && 
+ 
+ // Active les actions serveur si besoin
+ 
+ /* Ajustement pour mobile */
+ 
+lwebliksous.lweblik.com
+ 
+next build && 
+ 
+Image
+ 
+async
+ 
+bg-white text-black font-bold py-3 rounded-lg transition duration-300 hover:bg-gray-300
+ 
+slate-700
+ 
+slate-700
+ 
+white
+ 
+sm
+ 
+white
+ 
+late-400
+ 
+slate-700
+ 
+let
+ 
+full
+ 
+mb-[-350px] mt-[-100px]
+ 
+E2F1E7
+ 
+        border-bottom: var(--divider-border-width) var(--divider-border-style) var(--divider-color);
+        --divider-border-style: solid;
+        --divider-color: #EBEBEF;
+        --divider-border-width: 1px;
+        margin-bottom: -80px;
+ 
+backgroundColor
+ 
+"wave-haikei.svg"
+ 
+backgroundColor
+ 
+{...backgroundColorStyle}
+ 
+textColorStyle
+ 
+textColor
+ 
+relative flex justify-center items-center h-screen
+ 
+ h-screen
+ 
+screen
+ 
+ h-screen
+ 
+classNames
+ 
+classNames
+ 
+screen
+ 
+backgroundColor
+ 
+, ...backgroundColorStyle
+ 
+    #technologies img {
+
+    }
+ 
+/50 
+ 
+marketing
+ 
+Marketing
+ 
+transparent
+ 
+value=""
+ 
+consulting
+ 
+                    
+ 
+                <label htmlFor="description" style={labelStyle}>
+                    Description du besoin
+                </label>
+ 
+                <label htmlFor="type" style={labelStyle}>
+                    Type de Prestation
+                </label>
+ 
+cropImages
+ 
+++
+ 
+++
+ 
+Date.now()
+ 
+|| `html-default-${cpt++}
+ 
+block.id
+ 
+</ScrollTrigger>
+
+ 
+const
+ 
+    <script>
+    
+</script>
+ 
+url
+ 
+https://via.placeholder.com/600
+ 
+null
+ 
+import { IconArrowNarrowRight } from "@tabler/icons-react";
+import { useState, useRef, useId, useEffect } from "react";
+ 
+null
+ 
+<h1>Valide</h1>
+ 
+Timeline
+ 
+{  }
+ 
+style={colors: "#E2F1E7"}
+ 
+<TimelineOppositeContent
+          sx={{ m: 'auto 0' }}
+          variant="body2"
+          color="text.secondary"
+        >
+          10:00 am
+        </TimelineOppositeContent>
+ 
+<TimelineOppositeContent
+          sx={{ m: 'auto 0' }}
+          align="right"
+          variant="body2"
+          color="text.secondary"
+        >
+          9:30 am
+        </TimelineOppositeContent>
+ 
+>
+ 
+0:00 am
+ 
+                        key={block.id}
+                        blockId={block.id}
+ 
+core/html
+ 
+condition
+ 
+</Column>
+ 
+9:30 am
+ 
+Timeline
+ 
+default
+ 
+Design\ sans\ titre\ \(3\).png
+ 
+double-exposure-caucasian-man-virtual-reality-vr-headset-is-presumably-gamer-hacker-cracking-code-into-secure-network-server-with-lines-code.jpg
+ 
+linear
+ 
+identifier
+ 
+ /* Animation fluide */
+ 
+/* Position initiale */
+ 
+margin-top: -250px;
+ 
+block
+ 
+ linear-gradient(, #387478, #243642)
+ 
+width: 400px;
+ 
+getFontSizeForHeading
+ 
+right
+ 
+ color: #E2F1E7
+ 
+        opacity: 0;
+        transition: opacity 1.5s ease, visibility 1.5s ease;
+ 
+  if (condition) {
+      
+  }
+ 
+async
+ 
+async
+ 
+Gallery
+ 
+default
+ 
+<LoadingScreen />
+            <div className="container">
+                <BlockRenderer blocks={data} />x
+            </div>
+ 
+default
+ 
+default
+ 
+        </div>
+
+ 
+function
+ 
+ // Runs only once after the component mounts
+ 
+Input
+ 
+styles
+ 
+module
+ 
+nullx
+ 
+function add_custom_block_id( $block_content, $block ) {
+    if (isset($block['attrs']['anchor']) && !empty($block['attrs']['anchor'])) {
+        return preg_replace('/(<[^>]+)>/', '$1 id="' . esc_attr($block['attrs']['anchor']) . '">', $block_content, 1);
+    }
+    return $block_content;
+}
+add_filter('render_block', 'add_custom_block_id', 10, 2);
+ 
+id
+ 
+.attributes.id
+ 
+flex justify-center
+ 
+    if (blocks === 190) {
+        coverClasses = " text-white relative flex justify-center items-center h-[280px] mb-[-40px] md:mb-[-40px] ";
+    } else if (blocks === 565){
+        coverClasses = " text-white relative flex justify-center items-center h-screen ";
+    } else if (blocks === 564) {
+        coverClasses = " text-white relative flex justify-center items-center h-screen ";
+    } else if (blocks === 592) {
+        coverClasses = " text-white relative flex justify-center items-center mb-[130px] ";
+    } 
+ 
+ mix-blend-soft-light 
+ 
+ h-scren
+ 
+ 
+ 
+{ placeSelf: "flex-end" }}
+ 
+                console.log("ID : ", block.id);
+
+ 
+blocks
+ 
+innerBlocks
+ 
+attributes
+ 
+imageAlign
+ 
+w-[400px]
+ 
+w-[400px]
+ 
+styled-jsx/css
+ 
+w-[]";
+ 
+ = "
+ 
+               let imageIds = block.attributes.id;
+                 if (imageIds === 41) { //
+                    imageClasses += "mt-[-130px]";
+                } else if ([53, 54, 59, 57, 58, 61, 62, 55, 56, 63, 64, 60].includes(imageIds)) {
+                    imageClasses += "w-[85px]";
+                }
+ 
+Image src={logo} alt='logo' />
+ 
+hot-dang-homes-course
+ 

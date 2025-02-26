@@ -1,5 +1,5 @@
 {
-  "name": "hot-dang-homes-course",
+  "name": "web-lik",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,25 +10,35 @@
   },
   "dependencies": {
     "@apollo/client": "^3.6.8",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
     "@formspree/react": "^2.4.0",
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
     "@fortawesome/free-regular-svg-icons": "^6.2.0",
     "@fortawesome/free-solid-svg-icons": "^6.2.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "@mui/icons-material": "^6.4.5",
+    "@mui/lab": "^6.0.0-beta.28",
+    "@tabler/icons-react": "^3.30.0",
+    "clsx": "^2.1.1",
     "graphql": "^16.5.0",
+    "gsap": "^3.12.7",
     "html-react-parser": "^3.0.4",
-    "next": "13.2.4",
+    "lucide-react": "^0.475.0",
+    "motion": "^12.4.7",
+    "next": "^15.1.7",
     "numeral": "^2.0.6",
     "query-string": "^7.1.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.4.0",
+    "tailwind-merge": "^3.0.1",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.7",
-    "eslint": "8.18.0",
-    "eslint-config-next": "12.1.6",
+    "eslint": "8.48.0",
+    "eslint-config-next": "13.4.19",
     "postcss": "^8.4.14",
     "tailwindcss": "^3.1.6"
   }
