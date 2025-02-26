@@ -1,3 +1,5 @@
+image
+ 
     // const { slug } = await params;
     // const slugPath = slug?.join("/") || "";
     // const data = await getPage(slugPath);
