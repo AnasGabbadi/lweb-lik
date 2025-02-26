@@ -4,8 +4,6 @@ const nextConfig = {
   images: {
     domains: [process.env.WP_IMAGES_URL],
   },
-  reactStrictMode: true,
-  swcMinify: true,
 };
 
 module.exports = nextConfig;

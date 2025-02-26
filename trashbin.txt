@@ -1,3 +1,7 @@
+
+  reactStrictMode: true,
+  swcMinify: true,
+ 
 image
  
     // const { slug } = await params;
